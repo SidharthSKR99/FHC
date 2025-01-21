@@ -11,6 +11,6 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     if (username === validUsername && password === validPassword) {
         alert('Login successful');
     } else {
-        document.getElementById('error-message').textContent = 'Invalid username or password';
+        document.getElementById('error-message').textContent = 'Invalid username or password(Fraudulent Behaviour)';
     }
 });
