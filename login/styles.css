@@ -14,12 +14,18 @@ body {
 }
 
 .login-container {
+    
     background-color: Bisque;
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     width: 300px;
 }
+.logo-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 
 h2 {
     text-align: center;
@@ -48,7 +54,7 @@ h2 {
 button {
     width: 100%;
     padding: 10px;
-    background-color: #	5F9EA0;
+    background-color: #87CEFA;
     color: white;
     border: none;
     border-radius: 4px;
